@@ -76,6 +76,7 @@ body{
 		flex-direction: row;
 		justify-content: space-between;
 		color: rgba(255,255,255, 0.7);
+		align-items: center;
 	}
 	.content{
 		width: 50%;
@@ -106,6 +107,7 @@ body{
 			flex-direction: row-reverse;
 			justify-content: space-between;
 			color: rgba(255,255,255, 0.7);
+			align-items: center;
 		}
 		.content{
 			width: 50%;
@@ -132,65 +134,65 @@ body{
 
 	@media (max-width: 450px) {
 
-/* ======= For Page1 ======= */
+	/* ======= For Page1 ======= */
 
-		.homepage >h1{
-			font-size: 45px;
-		}
-		.homepage >p{
-			font-size: 13px;
+			.homepage >h1{
+				font-size: 45px;
+			}
+			.homepage >p{
+				font-size: 13px;
+			}
+
+	/* ======= For Page2 ======= */
+
+			.HEADING__PAGE2 > h2{
+				font-size: 35px;
+			}
+			.PARA__PAGE2{
+				font-size: 15px;
+			}
+
+	/* ======= For Page3 ====== */
+
+			.page3{
+				display: block;
+				padding-right: 0;
+			}
+			.content{
+				width: 90%;
+				text-align: center;
+			}
+			.content>h1{
+				font-size: 25px;
+			}
+			.content>p{
+				font-size: 15px;
+			}
+			.img{
+			width: 100%;
 		}
 
-/* ======= For Page2 ======= */
+	/* ======= For Page4 ======= */
 
-		.HEADING__PAGE2 > h2{
-			font-size: 35px;
+		.page4{
+				display: block;
+				padding-right: 0;
+			}
+			.content{
+				width: 90%;
+				text-align: center;
+			}
+			.content>h1{
+				font-size: 25px;
+			}
+			.content>p{
+				font-size: 15px;
+			}
+			.img{
+			width: 100%;
 		}
-		.PARA__PAGE2{
-			font-size: 15px;
-		}
-
-/* ======= For Page3 ====== */
-
-		.page3{
-			display: block;
-			padding-right: 0;
-		}
-		.content{
-			width: 90%;
-			text-align: center;
-		}
-		.content>h1{
-			font-size: 25px;
-		}
-		.content>p{
-			font-size: 15px;
-		}
-		.img{
-		width: 100%;
-	}
-
-/* ======= For Page4 ======= */
-
-	.page4{
-			display: block;
-			padding-right: 0;
-		}
-		.content{
-			width: 90%;
-			text-align: center;
-		}
-		.content>h1{
-			font-size: 25px;
-		}
-		.content>p{
-			font-size: 15px;
-		}
-		.img{
-		width: 100%;
-	}
 
 
-	}
+		}
 
 /* ============ End of MediaQuery ============== */
