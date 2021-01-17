@@ -1,1 +1,44 @@
+body{
+	margin:0%;
+}
 
+/* ============ Start of css for PAGE1 ============== */
+.container{
+	width:100%;
+}
+.page1{
+	background-color: #F3EED9;
+	min-height:  660px ;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+}
+.homepage{
+		width: 50%;
+	text-align: center;
+}
+.homepage > p{
+	font-family: 'Padauk', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+.homepage > h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	color: #824936;
+	margin: 0px;
+}
+/* ============ End of css for PAGE1 ============== */
+
+/* ============ Start of css for PAGE2 ============== */
+
+
+
+@media (max-width: 450px) {
+	.homepage >h1{
+		font-size: 45px;
+	}
+	.homepage >p{
+		font-size: 13px;
+	}
+}
